@@ -1,0 +1,37 @@
+﻿<!--<!--<h1>Home page</h1>-->-->
+<!--@*<span>@ViewBag.Name</span>*@-->
+<!--<!--<span>@TempData["Name"]</span>-->-->
+
+
+
+ <!--@*<h1>Home page</h1>
+@{ 
+    var array =(int[])ViewData["arr"];
+}
+
+@foreach (var item in array)
+ {
+     <span>@item</span>
+ }*@
+
+
+
+@*<h1>Home page</h1>
+
+foreach (var item in ViewBag.names) 
+{
+  <span>item</span>
+}*@-->
+
+@using ViewsModels.Models
+@model List<Student>
+
+<ul>
+    @foreach (var item in Model)
+     {
+        <li>@item.Id</li>
+        <li>@item.Name</li>
+        <li>@item.Surname</li>
+        <li>@item.Age</li>
+     }
+</ul>
