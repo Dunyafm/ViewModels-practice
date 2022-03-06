@@ -4,8 +4,8 @@
 
 
 
- <!--@*<h1>Home page</h1>
-@{ 
+<!--@*<h1>Home page</h1>
+@{
     var array =(int[])ViewData["arr"];
 }
 
@@ -18,16 +18,19 @@
 
 @*<h1>Home page</h1>
 
-foreach (var item in ViewBag.names) 
+foreach (var item in ViewBag.names)
 {
   <span>item</span>
 }*@-->
+@*@using ViewsModels.Models
+    @model List<Student>*@
 
-@using ViewsModels.Models
-@model List<Student>
+@model HomeViewModel
+
 
 <ul>
-    @foreach (var item in Model)
+
+    @foreach (var item in Model.Students)
      {
         <li>@item.Id</li>
         <li>@item.Name</li>
@@ -35,3 +38,11 @@ foreach (var item in ViewBag.names)
         <li>@item.Age</li>
      }
 </ul>
+
+<h2>@Model.Product.Name</h2>
+
+@foreach (var item in Model.Counts)
+ {
+    <span>@item</span>
+ }
+

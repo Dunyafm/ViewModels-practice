@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\Viewsmodels\\ViewsModels\\ViewsModels\\ViewsModels.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\ViewModels-practice\\Viewsmodels\\ViewsModels\\ViewsModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\Viewsmodels\\ViewsModels\\ViewsModels\\ViewsModels.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\ViewModels-practice\\Viewsmodels\\ViewsModels\\ViewsModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Viewsmodels\\ViewsModels\\ViewsModels\\ViewsModels.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\ViewModels-practice\\Viewsmodels\\ViewsModels\\ViewsModels.csproj",
         "projectName": "ViewsModels",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\Viewsmodels\\ViewsModels\\ViewsModels\\ViewsModels.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\ViewModels-practice\\Viewsmodels\\ViewsModels\\ViewsModels.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\Viewsmodels\\ViewsModels\\ViewsModels\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\ViewModels-practice\\Viewsmodels\\ViewsModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

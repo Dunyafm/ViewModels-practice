@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6R1NDaVbdaBW1Qsu8QrakuXMqEP3C2wXhbNfUj765vDuto/ncUh9VzOKxU8aMbOghizdYSiz6VSTPorlX1CkmQ==",
+  "dgSpecHash": "9CkSGCnD9RemmbtSfKypYh8ISQZZwK5Lay+dxBtHeNWpFIjev1Tyj2MdzC2LK3qbjg5qlGci1WIjGvvtFuSGwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Viewsmodels\\ViewsModels\\ViewsModels\\ViewsModels.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\ViewModels-practice\\Viewsmodels\\ViewsModels\\ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

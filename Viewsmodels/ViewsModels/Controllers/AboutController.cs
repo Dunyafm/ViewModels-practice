@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewsModels.Models;
 
 namespace ViewsModels.Controllers
 {
@@ -10,7 +11,13 @@ namespace ViewsModels.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            Product product = new Product
+            {
+                Id = 1,
+                Name = "RANGE ROVER"
+            };
+
+            return View(product);
         }
     }
 }
